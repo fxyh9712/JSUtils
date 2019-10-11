@@ -187,7 +187,7 @@ function checkProvinceid(provinceid) {
         "43", "44", "45", "46", "50", "51", "52", "53", "54", "61", "62",
         "63", "64", "65", "71", "81", "82", "91"
     ];
-    for (const id of cityCode) {
+    for (let id of cityCode) {
         if (id == provinceid) {
             return true;
         }
